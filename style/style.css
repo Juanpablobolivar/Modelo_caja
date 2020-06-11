@@ -1,0 +1,103 @@
+img{
+    border: 2px solid silver;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+nav ul{
+    list-style: none;
+}
+
+h1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 23px;
+    width: 400px;
+}
+
+body{
+    background-color: silver;
+    font: 16px Helvetica;
+}
+
+#main{
+    min-height: 800px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+}
+
+#main article{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 7px;
+    background: teal;
+    flex: 3 1 60%;
+    order: 2;
+}
+
+.descripción{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 2px solid greenyellow;
+    border-top: 22px solid black;
+    padding: 2px;
+}
+
+#main nav{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 7px;
+    background: red;
+    flex: 1 6 20%;
+    order: 1;
+}
+
+#main .cuadro p{
+    width: 300px;
+    height: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    float: left;
+}
+
+h2{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    min-height: 30px;
+    height: 40px;
+}
+
+#main aside{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 7px;
+    background: white;
+    flex: 1 6 20%;
+    order: 3;
+}
+
+header, footer{
+    display: block;
+    background-color: yellow;
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    border: 1px solid rgb(215, 255, 37);
+    border-radius: 7px;
+
+}
